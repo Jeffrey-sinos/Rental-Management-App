@@ -1,0 +1,1271 @@
+body
+{
+  font-family: Serif, Times New Roman, serif !important;
+}
+html
+{
+  height: 100%;
+}
+body
+{
+  margin: 0;
+  color: #130435;
+}
+
+.navbar
+{
+  background-color: black !important;
+}
+
+#nn
+{
+  height: 70px;
+  background-color: black;
+}
+button, input[type=submit]
+{
+  background-color: black;
+  color: white;
+}
+
+#navbar_options
+{
+  text-align: center;
+  display: inline;
+  font-size: 1.3em;
+  padding: 8px 16px;
+  color: white;
+}
+
+.navbar div a, #admin_options a
+{
+  text-decoration: none;
+  color: white;
+}
+
+
+.navbar div a.active
+{
+  font-size: 24px;
+}
+#contain_navbar p
+{
+  color: white;
+}
+
+#portal
+{
+  padding: 100px;
+  width: 50%;
+  margin: auto;
+  min-width: 1000px;
+}
+.tab {
+  overflow: hidden;
+  background-color: #130435;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.5), 0 6px 20px 0 rgb(89, 72, 170);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  color: white;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  color: inherit;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  border: none;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #130435;
+  color: white;
+  font-size: 1.7em;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #130435;
+  color: white;
+  font-size: 1.7em;
+
+  color: #3c3cae;
+
+}
+
+/* Style the tab content */
+.tabcontent{
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.5), 0 6px 20px 0 rgb(20, 9, 72);
+  }
+.tabcontent2, .tabcontent3, .tabcontent4, .tabcontent5
+{
+  display: none;
+}
+#Register form input[type=text], #Register form input[type=password] , #Register form select, #Register form input[type=email], #Register form input[type=file], #Register form input[type=int],#Login form input[type=text],#Login form input[type=password]
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  background-color: inherit;
+}
+
+.submit_btn
+{
+  width: 100%;
+  background-color: #130435;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#login_btn
+{
+  width: 50px;
+}
+
+input[type=submit]:hover {
+  background-color: #32406a;;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+#active_link, #hn_item
+{
+  
+  width: 50%;
+  height: 50%;
+}
+
+.slideshow-container
+{
+  max-width: 100%;
+  height: 700px;
+  position: relative;
+  margin: auto;
+  border-radius: 4px;
+  display: block;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.5), 0 6px 20px 0 rgb(20, 9, 72);
+
+}
+
+li a:hover
+{
+  color: grey;
+}
+
+.mySlides img
+{
+  max-height: 100%;
+  max-height: 700px;
+  object-fit: cover;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.prop_s
+{
+  background-color: white;
+  color: #130435;
+  height: 45px;
+  width: 100%;
+  font-size: 1.6em;
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(32, 14, 72, 0.25), 0 6px 20px 0 rgba(23, 11, 157, 0.5);
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+#view_btn
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #bbbac1;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: 1s ease;  
+}
+#view_btn:hover
+{
+  width: 75%;
+  height: 55px;
+}
+
+#property_details
+{
+  display: block;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  width: 28%;
+  margin: auto;
+  min-width: 315px;
+
+}
+
+#prop_dets p
+{
+  min-width: 260px;
+}
+
+#owner_details img
+{
+  width: -moz-available;
+}
+#broker_details, #owner_details p
+{
+    padding-left: 6px;
+    font-size: 1.4em;
+}
+#owner_dets
+{
+  display: block;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  width: 28%;
+  margin: auto;
+  min-width: 340px;}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+.listing
+{
+  display: block;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  width: 70%;
+  margin: auto;
+}
+
+.listing_image
+{
+  display: inline;
+}
+.listing p
+{
+  text-align: right;
+}
+.listing button
+{
+  float: right;
+}
+.listing_image img{
+  
+  width: 50%;
+  object-fit: contain;
+  transition: 3s ease;
+  padding-top: 40px;
+  
+}
+.listing_image img:hover
+{
+  transform: scale(2);
+}
+.admin_listing img
+{
+  width: 100%;
+}
+.property_details, .client_details, .broker_details, .owner_details
+{
+  padding: 16px;
+  text-align: right;
+  width: 40%;
+  display: inline-block;
+}
+#prop_dets
+{
+  display: block;
+  padding: 10px;
+  width: 100%;
+
+}
+#owner_broker
+{
+  display: block;
+
+}
+
+#news {
+  position: relative;
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+
+#news img {
+  width: 100%;
+  height: auto;
+}
+.container1 {
+  position: relative;
+  width: 33%;
+}
+
+.image {
+  display: inline;
+  width: 33%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  opacity: 0.2;
+  transition: .5s ease;
+  background-color: #130435;
+}
+
+.container1:hover .overlay {
+  opacity: 0.5;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.team_info
+{
+  width: fit-content;
+  margin: auto;
+  min-width: 813px;
+}
+#team_member
+{
+  width: fit-content;
+  padding: 20px;
+  display: inline-block;
+}
+#member_pic
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+}
+.member_info
+{
+  width: fit-content;
+  margin: auto;
+}
+.member_info p
+{
+text-align: center;
+}
+.side_navbar
+{
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #130435;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+#admin_navbar
+{
+  list-style-type: none;
+  margin: 0;
+  width: 18%;
+  height: 100%;
+  background-color: #130435;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  position: fixed;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  transition: 0.3s;
+  z-index: 1;
+}
+#admin_navbar button {
+  background-color: #130435;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 16px;
+  transition: 0.3s;
+  font-size: 20px;
+  color: white;
+  display: block;
+  width: 90%;
+  text-align: right;
+  overflow: hidden;
+  border: none;
+}
+
+/* Change background color of buttons on hover */
+#admin_navbar button:hover {
+  background-color: #130435;
+  color: white;
+  font-size: 24px;
+}
+
+/* Create an active/current tablink class */
+#admin_navbar button.active {
+  background-color: #130435;
+  color: white;
+  font-size: 26px;
+  color: #3c3cae;;
+}
+#admin_navbar a
+{
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+}
+#admin_navbar a
+{
+  color: white;
+}
+#admin_navbar a:hover
+{
+color: grey;
+}
+
+#admin_body
+{
+  height: 100%;
+  width: 85%;
+  float: right;
+}
+
+#admin_body_top
+{
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  min-width: 250px;
+  height: 80px;
+  background-color: #130435;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: white;
+  transition: 0.3s;
+  width: 100%;
+}
+#admin_body_body
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+#admin_options
+{
+  display: block;
+  width: 100%;
+  float: right;
+  margin: auto;
+}
+#admin_options *
+{
+  float: right;
+  margin: auto;
+}
+#admin_options div
+{
+  background-color: inherit;
+  padding: 5px;
+
+}
+#admin_options select
+{
+  width: 30px;
+  background-color: #130435;
+  border-radius: 2px;
+  border-color: white;
+}
+
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+#admin_options div img
+{
+  width: 60px;
+  height: 60px;
+  border: none;
+
+}
+#admin_options p
+{
+  display: inline;
+  width: 80px;
+  float: right;
+  text-align: right;
+}
+.paymethod form input[type=password], .paymethod form input[type=submit], .paymethod form input[type=text], .paymethod form input[type=int]
+{
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #bbbac1;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+.paymethod form input[type=password]{
+    width: 100%;
+}
+
+
+button, input[type=submit]
+{
+  font-size: 16px;
+}
+.paymethod form input[type=submit], .paymethod form input[type=text], .paymethod form input[type=int], .paymethod form button
+{
+  width: 100%;
+}
+.tabcontent2 select, .submit_btn1, #login_btn, .tabcontent3 input, .tabcontent3 select, .tabcontent4 input, .tabcontent4 select, .tabcontent5 input, .tabcontent5 select
+{
+    width: 625px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+#admin_body_body form
+{
+  width: 80%;
+  margin: auto;
+}
+#admin_body_body form input[type=checkbox]
+{
+  width: 30px;
+}
+
+
+.admin_listing
+{
+  display: block;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  width: 70%;
+  margin: auto;
+  min-width: 870px;
+
+}
+.owner_listing, .client_listing, .broker_listing
+{
+  display: block;
+  border: none;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  width: 70%;
+  margin: auto;
+  min-width: 900px;
+}
+.dashboard_body
+{
+  display: block;
+  width: 60%;
+  margin: auto;
+  height: 50%;
+  overflow: hidden;
+  min-width: ;
+}
+#dashboard_line, #dashboard_map
+{
+  width: 100%;
+  height: 100%;
+  padding: 6px;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+}
+#dashboard_line
+{
+  float: left;
+}
+#dashboard_map
+{
+  float: right;
+}
+#my-chart.line {
+  height: 200px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+#search_tab
+{
+  width: 55%;
+  min-width: 1022px;
+  color: white;
+  background-color: #130435;
+  margin: auto;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+
+
+}
+#search_tab_top
+{
+  height: 30%;
+  margin: auto;
+  width: fit-content;
+}
+#search_middle
+{
+  width: 70%;
+  margin: auto;
+  height: 30%;
+
+}
+#search_price
+{
+  width: 100%;
+}
+
+#search_price:hover
+{
+  opacity:  1;
+}
+#search_tab fieldset
+{
+  height: 100%;
+  
+}
+
+#search_tab select, #search-name
+{
+  font-size: 15px;
+  text-align: center;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+} 
+#search_middle2
+{
+  height: 20%;
+}
+#search_middle22
+{
+  display: flex;
+}
+#search_middle2 input[type=checkbox]
+{
+  padding-left: 10px;
+  padding-right: 0px;
+}
+#search_middle2 label
+{
+  padding-right: 6px;
+  font-size: 18px;
+}
+#search_middle2 div
+{
+  margin: auto;
+}
+#one, #st, #search_middle3, #search_bottom{
+  width: 20%;
+  margin: auto;
+}
+#search_btn, #reset_search, #advance_btn, #one button
+{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+
+  background-color: inherit;
+  color: inherit;
+}
+
+#one button
+{
+  background-color: #130435;
+  color: white;
+  border: none;
+  font-size: 24px;
+}
+#one button:hover
+{
+  font-size: 28px;
+}
+#search_btn:hover, #advance_btn:hover, #reset_search:hover
+{
+  font-size: 22px;
+}
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: black;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+h1
+{
+  text-align: center;
+}
+h2
+{
+  color: #130435b3;
+  font-size: larger;
+  text-align: center;
+}
+.button a
+{ 
+  height: 10px;
+  text-decoration: none;
+}
+
+#pay_options
+{
+
+}
+.button-align
+{
+  float: left;
+  width: 34%;
+}
+
+.button
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 60px;
+  border-radius: 9px;
+  overflow: hidden;
+  cursor: pointer;
+  width: 250px; 
+
+}
+.button:hover
+{
+  background: #152ead;
+}
+.button:active
+{
+  background: #152ead;
+}
+.button-image
+{
+  display: inline-flex;
+  align-items: center;
+}
+.button-text
+{
+  color: white;
+}
+
+.paymethod
+{
+  position: absolute;
+  left: 40%;
+  width: 30%;
+  overflow-y: scroll; 
+  margin: auto;
+  padding: 80px;
+  box-shadow: 0 4px 8px 0 rgba(20, 9, 72, 0.25), 0 6px 20px 0 rgb(20, 9, 72,0.5);
+  border-radius: 10px ;
+  font-size: 1.2em;
+  display: none;
+  
+}
+
+#purchases {
+  border-collapse: collapse;
+  width: 98%;
+  margin: auto;
+}
+
+#purchases td, #purchases th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#purchases tr:nth-child(even){background-color: #f2f2f2;}
+
+#purchases tr:hover {background-color: #ddd;}
+
+#purchases th {
+  text-align: center;
+  background-color: #130435;
+  color: white;
+  padding: 20px;
+  font-weight: 300;
+
+
+}
+#home-explain
+{
+  width: 90%;
+  margin: auto;
+  min-width: 1000px;
+}
+.home-explain 
+{
+  display: inline-block;
+  width: 24%;
+  padding: 40px;
+}
+.home-explain-image
+{
+  height: 45%;
+  width: fit-content;
+  margin: auto;
+}
+.home-explain-desc
+{
+  font-size: 22px;
+  color: #606060;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px; 
+}
+#home-details
+{
+  width: fit-content;
+  margin: auto;
+  font-size: 20px;
+}
+
+.home-explain-image img
+{
+  width: 180px;
+}
+
+#div1
+{
+  width: 50%;
+  margin: auto;
+}
+#div1 div
+{
+  
+  height: 100%;
+}
+#div1 img
+{
+  min-width: 50px; 
+  min-height: 50px; 
+  width: 50%;
+  transition: 2s ease;
+}
+
+.property_details img:hover
+{
+  width: 60px;
+  height: 60px;
+  transition: 2s ease;
+}
+ 
+#client, #broker, #owner
+{
+  width: 40%;
+  min-width: 823px;
+  margin: auto;
+  padding: 15px;
+  box-shadow: rgba(255, 255, 255, 0.57) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(251, 251, 251, 0.35) 0px -2px 6px 0px inset;  
+}
+    
+
+#client_home_top, #broker_home_top, #owner_home_top
+{
+  height: 500px;
+  background-color: black;
+  color: white;
+  box-shadow: rgba(255, 255, 255, 0.57) 0px 50px 100px -20px, rgba(255, 255, 255, 0.3) 0px 30px 60px -30px, rgba(251, 251, 251, 0.35) 0px -2px 6px 0px inset;
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.57) 75%, #000 100%), url("Nyumba Zetu/assets/img/home8.jpg");
+}
+
+#client_home_bottom, #broker_home_bottom, #owner_home_bottom
+{
+  padding-bottom: 100px;
+  padding: 50px;
+
+}
+
+#client fieldset, #broker fieldset, #owner fieldset
+{
+  border: none;
+  margin-top: 100px;
+}
+
+#client fieldset div, #broker fieldset div, #owner fieldset div
+{
+  width: 48%;
+}
+
+#client_details, #broker_details, #owner_details
+{
+  display: inline-block;
+  margin-top: 6%;
+}
+
+#client_pic, #broker_pic, #owner_pic
+{
+  float: left;
+}
+
+* 
+    {
+      box-sizing: border-box;
+    }
+    
+
+    .market 
+    {
+      width: 82%;
+      margin: 50px auto;
+      background: white;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      display: flex;
+      flex-direction: column;
+      min-width: 1250px;
+    }
+    .title {
+      border-bottom: 1px solid #E1E8EE;
+      padding: 20px 30px;
+      font-size: 1.5em;
+      font-weight: 600;
+      text-align: -moz-center;
+    }
+    .title p
+    {
+      font-weight: 400;
+      color: #5E6977;
+    }
+     
+    .item {
+      padding: 20px;
+      display: flex;
+      border-bottom: 1px solid #E1E8EE;
+    }
+     
+        
+    .is-active {
+      animation-name: animate;
+      animation-duration: .8s;
+      animation-iteration-count: 1;
+      animation-timing-function: steps(28);
+      animation-fill-mode: forwards;
+    }
+     
+    @keyframes animate {
+      0%   { background-position: left;  }
+      50%  { background-position: right; }
+      100% { background-position: right; }
+    }
+
+    .image {
+      margin-right: 50px;
+      width: 30%;
+    }
+    
+    .image img
+    {
+      width: 100%;
+      min-width: 250px;
+      max-height: 230px;
+      object-fit: cover;
+    } 
+    
+    .description 
+    {
+      width: 30%;
+      min-width: 200px;
+      text-align: center;
+    }
+    
+    .description a
+    {
+      font-size: 1.1em;
+    }
+    .description a:hover
+    {
+      font-size: 1.3em;
+      color: #0b36b5;
+    }
+    .bid 
+    {
+      width: 35%;
+      margin-left: 60px;
+      padding: 10px;
+    }
+    .bid label
+    {
+        display: block;
+        text-align: center;
+
+    }
+    #amount {
+      border: 2px solid #aaa4a44f;
+      text-align: center;
+      width: 80%;
+      color: #43484D;
+      font-weight: 600;
+      margin: auto;
+      display: block;
+      height: 50px;
+    }
+    #bid-btn
+    {
+
+    }
+    .bid p
+    {
+      width: fit-content;
+      text-align: center;
+      margin: auto;
+}
+    }
+    
+    @media (max-width: 800px) {
+      .market {
+          width: 100%;
+          height: auto;
+          overflow: hidden;
+        }
+        .item {
+          height: auto;
+          flex-wrap: wrap;
+          justify-content: center;
+        }
+        .image img {
+          width: 50%;
+        }
+        .image, .bid, .description 
+        {
+          width: 100%;
+          text-align: center;
+          margin: 6px 0;
+        }
+        .buttons {
+          margin-right: 20px;
+        }
+    }
+#pay-btn
+{
+  display: block;
+  font-size: 17px;
+  text-decoration: none;
+  color: white;
+  background-color: #130435;
+  width: fit-content;
+  padding: 8px;
+  margin: 25px auto;
+}
+
+#bid-note
+{
+  display: block;
+  width: 50%;
+  font-size: 15px;
+  color: #5b5b5b;
+}
+.clear-btn
+{
+  background: transparent;
+  color: black;
+  border: none;
+  font-size: 1.3em;
+  text-align: revert-layer;
+}
+
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
